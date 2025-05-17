@@ -27,13 +27,9 @@
 .right-container{
     display: flex;
     flex-direction: column;
-}
-
-.tip, .total, .reset{
     background-color: hsl(183, 100%, 15%);
     padding: 5px;
     border-radius: 8px;
     font-size: 24px;
     font-weight: 700px;
-
 }
