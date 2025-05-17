@@ -1,0 +1,33 @@
+/* global styles */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: hsl(185, 41%, 84%);
+}
+
+.main-container{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    z-index: 1000;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+}
+
+/* .left-container{
+    display: flex;
+    flex-direction: column;
+} */
+
+
+/* .right-container{
+
+}  */
+
+.tip, .total, .reset{
+    background-color: hsl(183, 100%, 15%);
+}
