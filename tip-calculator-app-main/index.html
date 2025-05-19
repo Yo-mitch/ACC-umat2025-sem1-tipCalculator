@@ -12,48 +12,62 @@
 
 </head>
 <body>
-  <div class = "parent-container">
-    <div class = "main-container">
-      <div class = "left-container">
-        <div class = "bill">
-          <h2> Bill </h2>
-          <input type = "text">
-        </div>
+  <main class="container">
+    <div>
+      <h1 class="title">SPLIT<br />TTER</h1>
+      <div class="splitter-card">
+        <section class="input-panel">
+          <label>
+            Bill
+            <input type="number" placeholder="0" value="142.55" />
+          </label>
 
-        Select Tip %
-        5%
-        10%
-        15%
-        25%
-        50%
-        Custom
-        Number of People
-      </div>
-    
-      <div class = "right-container">
-        <div class = "tip-amount-info">
-          <input type = "search" id = "search-box">
-          <p>
-            Tip Amount <br>
-            / person
-          </p>
-        </div>
-     
-        <div class = "total">
-          Total
-          / person
-        </div>
+          <div class="tip-selection">
+            <p>Select Tip %</p>
+            <div class="tip-buttons">
+              <button>5%</button>
+              <button>10%</button>
+              <button class="active">15%</button>
+              <button>25%</button>
+              <button>50%</button>
+              <input type="number" placeholder="Custom" />
+            </div>
+          </div>
 
-        <div class = "reset">
-          RESET
-        </div>
+          <label>
+            Number of People
+            <input type="number" placeholder="1" value="5" />
+          </label>
+        </section>
+
+        <section class="result-panel">
+          <div class="amount">
+            <div>
+              <p class="label">Tip Amount</p>
+              <small>/ person</small>
+            </div>
+            <p class="value">$4.27</p>
+          </div>
+
+          <div class="amount">
+            <div>
+              <p class="label">Total</p>
+              <small>/ person</small>
+            </div>
+            <p class="value total">$32.79</p>
+          </div>
+
+          <button class="reset">RESET</button>
+        </section>
       </div>
+
+      <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
     </div>
-  </div>
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </main>
 </body>
 </html>
+
+
+
